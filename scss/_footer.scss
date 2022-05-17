@@ -1,0 +1,119 @@
+.card-body{
+    height: 10px;
+    justify-content: center;
+    align-content: center;
+    display:inline-flex !important;
+    font-size: 15px;
+    }
+    
+.card-header{
+    justify-content: center;
+    align-content: center;
+    display: inline-flex !important;
+    font-size: 15px;
+    }
+    
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 130px;
+}
+    
+.contacto2{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 20px;
+}
+    
+img {border-radius: 15px;}
+    
+.img {border-radius: 50px;
+    margin-bottom: 50px;
+    height: 350px !important;
+    width: 300px !important;
+    }
+    
+
+
+    /* ANIMACIONES */
+    
+    @keyframes fade-in{
+        0%{
+            transform: translateX(80px);
+            opacity: 0;    
+        }
+        100%{transform: translateX(150px);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes efecto3{
+        0%{
+            opacity: 0;    
+        }
+        100%{opacity: 1;
+        }
+    }
+
+    /* 
+    @media screen and (min-width: 768px){
+    
+        .main-section{
+            display: flex;
+            justify-content: space-evenly;}
+    
+        .contacto{
+            margin-bottom: 170px;
+            }
+        
+        .lista-servicios-grid{
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item8"
+            ;
+        }
+    
+        .formulario2{
+            width: 550px;      
+            height: 560px;       
+        }
+    
+        .lista-videos-grid{
+            grid-template-columns: 1fr 1fr;
+            list-style: none;
+            display: grid;
+            grid-template-areas: 
+            "video1 video2"
+            "video3 video4"
+            ;
+        }
+        } */
+    /* 
+    @media screen and (min-width: 1280px){
+    
+        .contacto{
+            margin-bottom: 200px;
+            }
+        
+    
+        .lista-servicios-grid{   
+            grid-template-columns: 1fr 1fr 1fr 1fr;                         
+            grid-template-areas:
+            "item1 item2 item3 item4"
+            "item5 item6 item7 item8"
+            ;
+        }
+        }
+    
+    @media screen and (min-width: 2400px){
+    
+        .contacto{
+            margin-bottom: 880px;
+            }
+        } */
+    

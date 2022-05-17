@@ -1,0 +1,328 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header-flex {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 25px; }
+
+.bgjuan {
+  background-color: white; }
+
+.header-logo {
+  position: relative;
+  left: -240px;
+  top: 30px;
+  display: inline-block;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards; }
+
+.efecto0 {
+  transition-property: all;
+  transition-duration: 0.7s;
+  transition-timing-function: ease; }
+
+.efecto0:hover {
+  transform: scale(1.1); }
+
+.header-titulo-index {
+  position: relative;
+  text-align: center;
+  width: 150px;
+  height: 120px;
+  top: -115px;
+  right: -80px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center; }
+
+.header-titulo-nosotros {
+  position: relative;
+  text-align: center;
+  width: 150px;
+  height: 120px;
+  top: -75px;
+  right: -75px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center; }
+
+.header-navegador-todos {
+  list-style: none;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-radius: 15px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  top: -108px; }
+
+.nav-link {
+  color: #0d0d72 !important; }
+
+.nav-item {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #0d0d72;
+  font-weight: 800;
+  transition-property: all; }
+
+.nav-item:hover {
+  text-decoration: underline; }
+
+.bg-nav {
+  background-color: #f3fbfe; }
+
+main {
+  margin-bottom: 50px;
+  text-align: center; }
+  main section {
+    text-align: center; }
+    main section div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px; }
+    main section p span {
+      color: #0d0d72;
+      font-weight: 800; }
+
+.efecto1 {
+  transition-property: all;
+  transition-duration: 0.7s;
+  transition-timing-function: ease; }
+
+.efecto1:hover {
+  transform: scale(1.1); }
+
+.efecto2 {
+  transition-property: all;
+  transition-duration: 0.7s;
+  transition-timing-function: ease;
+  padding: 20px;
+  border-radius: 30px; }
+
+.efecto2:hover {
+  transform: rotate(360deg); }
+
+.efecto3 {
+  animation-name: efecto3;
+  animation-duration: 1.5s;
+  opacity: 0;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards; }
+
+h1 h2 h3 {
+  margin-bottom: 25px; }
+
+.nombre-resaltado {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0; }
+
+.padding-cero {
+  padding: 10px 10px 20px 10px; }
+
+.formulario1 {
+  display: inline-block;
+  justify-content: center;
+  border-style: solid;
+  background-color: lightskyblue;
+  width: fit-content;
+  /*ancho*/
+  height: fit-content;
+  /*alto*/
+  padding: 10px;
+  margin: 20px 0px;
+  text-align: left;
+  align-items: center; }
+  .formulario1 .honorarios {
+    text-align: center; }
+
+.formulario2 {
+  display: inline-block;
+  justify-content: center;
+  border-style: solid;
+  background-color: lightskyblue;
+  width: fit-content;
+  /*ancho*/
+  height: fit-content;
+  /*alto*/
+  padding: 10px;
+  text-align: center; }
+  .formulario2 .formulario2-item {
+    padding: 0px; }
+  .formulario2 .formulario2-boton {
+    margin-top: 20px; }
+
+.separaciones {
+  margin-bottom: 50px; }
+
+.iframe {
+  width: 350px;
+  height: 300px; }
+
+/* .lista-servicios-grid{
+    list-style: none;
+    display: grid;
+    grid-template-areas:
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6"
+    "item7"
+    "item8"
+    ;} */
+/* .item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+.item6 { grid-area: item6; }
+.item7 { grid-area: item7; }
+.item8 { grid-area: item8; } */
+/* .lista-videos-grid{
+    list-style: none;
+    display: grid;
+    grid-template-areas: 
+    "video1"
+    "video2"
+    "video3"
+    "video4"
+    ;
+} */
+/* 
+.video1{ grid-area: video1; }
+.video2{ grid-area: video2; }
+.video3{ grid-area: video3; }
+.video4{ grid-area: video4; } */
+.card-body {
+  height: 10px;
+  justify-content: center;
+  align-content: center;
+  display: inline-flex !important;
+  font-size: 15px; }
+
+.card-header {
+  justify-content: center;
+  align-content: center;
+  display: inline-flex !important;
+  font-size: 15px; }
+
+.contacto {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-bottom: 130px; }
+
+.contacto2 {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-bottom: 20px; }
+
+img {
+  border-radius: 15px; }
+
+.img {
+  border-radius: 50px;
+  margin-bottom: 50px;
+  height: 350px !important;
+  width: 300px !important; }
+
+/* ANIMACIONES */
+@keyframes fade-in {
+  0% {
+    transform: translateX(80px);
+    opacity: 0; }
+  100% {
+    transform: translateX(150px);
+    opacity: 1; } }
+
+@keyframes efecto3 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* 
+    @media screen and (min-width: 768px){
+    
+        .main-section{
+            display: flex;
+            justify-content: space-evenly;}
+    
+        .contacto{
+            margin-bottom: 170px;
+            }
+        
+        .lista-servicios-grid{
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item8"
+            ;
+        }
+    
+        .formulario2{
+            width: 550px;      
+            height: 560px;       
+        }
+    
+        .lista-videos-grid{
+            grid-template-columns: 1fr 1fr;
+            list-style: none;
+            display: grid;
+            grid-template-areas: 
+            "video1 video2"
+            "video3 video4"
+            ;
+        }
+        } */
+/* 
+    @media screen and (min-width: 1280px){
+    
+        .contacto{
+            margin-bottom: 200px;
+            }
+        
+    
+        .lista-servicios-grid{   
+            grid-template-columns: 1fr 1fr 1fr 1fr;                         
+            grid-template-areas:
+            "item1 item2 item3 item4"
+            "item5 item6 item7 item8"
+            ;
+        }
+        }
+    
+    @media screen and (min-width: 2400px){
+    
+        .contacto{
+            margin-bottom: 880px;
+            }
+        } */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }

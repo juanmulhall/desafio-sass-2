@@ -1,0 +1,152 @@
+main{
+    margin-bottom: 50px;
+    text-align: center;
+
+    section{
+        text-align: center;
+    
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:30px;
+        }
+    
+        p{
+            span{
+            color: $colorsecundario;
+            font-weight: 800;
+            }
+        }
+    }
+}
+
+.efecto1{
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+}
+
+.efecto1:hover{
+    transform: scale(1.1);
+}
+
+.efecto2{
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.efecto2:hover{
+    transform: rotate(360deg);
+}
+
+.efecto3{
+    animation-name: efecto3;
+    animation-duration: 1.5s;
+    opacity: 0;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+h1 h2 h3{
+    margin-bottom: 25px;
+}
+
+.nombre-resaltado{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+}
+
+.padding-cero{
+    padding: 10px 10px 20px 10px;
+}
+
+.formulario1{
+    display: inline-block;
+    justify-content: center;
+    border-style:solid;
+    background-color: $colorformularios;
+    width: fit-content;       /*ancho*/
+    height: fit-content;     /*alto*/
+    padding: 10px;
+    margin: 20px 0px;
+    text-align: left;
+    align-items: center;
+    .honorarios {
+        text-align: center;
+    }
+}
+
+.formulario2{
+    display: inline-block;
+    justify-content: center;
+    border-style:solid;
+    background-color: $colorformularios;
+    width:fit-content;       /*ancho*/
+    height: fit-content;     /*alto*/   
+    padding: 10px;
+    text-align: center;
+
+    .formulario2-item{
+        padding: 0px;
+    }
+    .formulario2-boton{
+        margin-top: 20px;
+    }
+}
+
+
+.separaciones{
+    margin-bottom: 50px;
+}
+
+.iframe{width: 350px; height: 300px;}
+
+
+/* .lista-servicios-grid{
+    list-style: none;
+    display: grid;
+    grid-template-areas:
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6"
+    "item7"
+    "item8"
+    ;} */
+
+/* .item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+.item6 { grid-area: item6; }
+.item7 { grid-area: item7; }
+.item8 { grid-area: item8; } */
+
+
+/* .lista-videos-grid{
+    list-style: none;
+    display: grid;
+    grid-template-areas: 
+    "video1"
+    "video2"
+    "video3"
+    "video4"
+    ;
+} */
+/* 
+.video1{ grid-area: video1; }
+.video2{ grid-area: video2; }
+.video3{ grid-area: video3; }
+.video4{ grid-area: video4; } */

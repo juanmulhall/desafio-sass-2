@@ -1,0 +1,93 @@
+.header-flex{
+    display: flex;
+    flex-direction: column;
+    background-color: $colorprimario;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.bgjuan{
+    background-color: $colorprimario;
+}
+
+.header-logo{
+    position: relative;
+    left: -240px;
+    top: 30px;
+    display: inline-block;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+}
+
+.efecto0{
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+}
+
+.efecto0:hover{
+    transform: scale(1.1);
+}
+
+.header-titulo-index{
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    top: -115px;
+    right: -80px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-titulo-nosotros{
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    top: -75px;
+    right: -75px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-navegador-todos{
+
+    list-style: none;
+    justify-content: space-evenly;
+    border-style:solid;
+    border-radius: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top:-108px;
+}
+
+.nav-link{
+    color: $colorsecundario !important;
+}
+
+.nav-item{
+    padding: 10px 10px;
+    text-decoration: none;
+    color:  $colorsecundario;
+    font-weight: 800;
+    transition-property: all;
+}
+
+.nav-item:hover{
+    text-decoration:underline;
+}
+
+.bg-nav{
+    background-color: $colorterciario;
+}
