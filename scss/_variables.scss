@@ -2,3 +2,11 @@ $colorprimario: white;
 $colorsecundario: rgb(13, 13, 114);
 $colorterciario: rgba(243,251,254,255);
 $colorformularios: lightskyblue;
+
+
+//Mixins//
+
+@mixin size ($alto, $espaciado) {
+    height: $alto;
+    margin: $espaciado;
+}

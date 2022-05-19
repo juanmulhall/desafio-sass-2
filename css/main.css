@@ -136,8 +136,11 @@ h1 h2 h3 {
   font-size: 16px;
   padding: 0; }
 
-.padding-cero {
+.padding-cero, .textojustificado {
   padding: 10px 10px 20px 10px; }
+
+.textojustificado {
+  text-align: justify; }
 
 .formulario1 {
   display: inline-block;
@@ -177,6 +180,10 @@ h1 h2 h3 {
 .iframe {
   width: 350px;
   height: 300px; }
+
+.mapa {
+  height: 300px;
+  margin: 10px; }
 
 /* .lista-servicios-grid{
     list-style: none;
@@ -247,6 +254,25 @@ img {
   margin-bottom: 50px;
   height: 350px !important;
   width: 300px !important; }
+
+.red-telefono {
+  background-color: black;
+  border-radius: 15px; }
+
+.red-email {
+  background-color: black;
+  border-radius: 15px; }
+
+.red-facebook {
+  background-color: #3b579d;
+  border-radius: 15px; }
+
+.red-instagram, .red-instagram2 {
+  background-color: #833ab4;
+  border-radius: 15px; }
+
+.red-instagram2 {
+  background: linear-gradient(222deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%); }
 
 /* ANIMACIONES */
 @keyframes fade-in {

@@ -35,7 +35,27 @@ img {border-radius: 15px;}
     width: 300px !important;
     }
     
+//Maps//
 
+$redes: (
+    telefono: black,
+    email: black,
+    facebook: rgba(59,87,157,255), 
+    instagram: rgb(131,58,180),
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        background-color: $color;
+        border-radius: 15px;
+    }
+
+};
+
+.red-instagram2{
+    @extend .red-instagram;
+    background: linear-gradient(222deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
+}
 
     /* ANIMACIONES */
     

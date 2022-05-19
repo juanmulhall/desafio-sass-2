@@ -69,6 +69,11 @@ h1 h2 h3{
     padding: 10px 10px 20px 10px;
 }
 
+.textojustificado{
+    @extend .padding-cero;
+    text-align: justify;
+}
+
 .formulario1{
     display: inline-block;
     justify-content: center;
@@ -109,6 +114,10 @@ h1 h2 h3{
 }
 
 .iframe{width: 350px; height: 300px;}
+
+.mapa{
+    @include size(300px,10px);
+}
 
 
 /* .lista-servicios-grid{
