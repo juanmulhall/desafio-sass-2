@@ -36,7 +36,7 @@ main{
     transition-property: all;
     transition-duration: 0.7s;
     transition-timing-function: ease;
-    padding: 20px;
+    padding: 7px;
     border-radius: 30px;
 }
 
@@ -116,5 +116,5 @@ h1 h2 h3{
 .iframe{width: 350px; height: 300px;}
 
 .mapa{
-    @include size(300px,10px);
+    @include size(300px,0px);
 }

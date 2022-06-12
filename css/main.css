@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif !important;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/fondo.webp);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -112,7 +112,7 @@ main {
   transition-property: all;
   transition-duration: 0.7s;
   transition-timing-function: ease;
-  padding: 20px;
+  padding: 7px;
   border-radius: 30px; }
 
 .efecto2:hover {
@@ -183,7 +183,7 @@ h1 h2 h3 {
 
 .mapa {
   height: 300px;
-  margin: 10px; }
+  margin: 0px; }
 
 .card-body {
   height: 10px;
